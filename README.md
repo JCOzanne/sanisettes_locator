@@ -46,3 +46,12 @@ Docker (optional)
 docker build -t sanisettes_app .
 docker run -p 8000:8000 sanisettes_app
 ```
+---
+
+## Limitations
+
+This project was developed as a **personal exercise**.  
+The goal is to practice working with public APIs and deployment, not to deliver a production-ready service.
+
+- Only a subset of data may be imported due to deployment constraints (Render free plan).  
+- No authentication or advanced features implemented. 
